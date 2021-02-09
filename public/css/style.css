@@ -16,3 +16,16 @@ header {
 h1 {
   color: #c1c1c1;
 }
+
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  color: #121212;
+}
+.cars .car {
+  width: calc(100% / 5 - 20px);
+  margin: 10px;
+}
+.cars .car img {
+  width: 100%;
+}
