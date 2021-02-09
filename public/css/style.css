@@ -25,6 +25,7 @@ h1 {
 .cars .car {
   width: calc(100% / 5 - 20px);
   margin: 10px;
+  text-align: center;
 }
 .cars .car img {
   width: 100%;
@@ -35,5 +36,4 @@ h1 {
 .cars .car a {
   display: block;
   margin: 10px 0;
-  text-align: center;
 }

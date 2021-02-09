@@ -6,6 +6,7 @@
   .car {
     width: calc(100% / 5 - 20px);
     margin: 10px;
+    text-align: center;
 
     img {
       width: 100%;
@@ -18,7 +19,6 @@
     a {
       display: block;
       margin: 10px 0;
-      text-align: center;
     }
   }
 }
