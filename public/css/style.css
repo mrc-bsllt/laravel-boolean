@@ -5,3 +5,14 @@
   box-sizing: border-box;
   font-family: "Lora", serif;
 }
+
+header {
+  height: 80px;
+  background-color: #121212;
+  text-align: center;
+  line-height: 80px;
+}
+
+h1 {
+  color: #c1c1c1;
+}

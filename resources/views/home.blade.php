@@ -6,11 +6,16 @@
     <title>Home Cars</title>
   </head>
   <body>
-    <h1>Parco macchine</h1>
-    <div class="cars">
-      <div class="car">
+
+    @include("template/header");
+
+    <main>
+      <div class="cars">
+
+        <div class="car"></div>
 
       </div>
-    </div>
+    </main>
+    
   </body>
 </html>
