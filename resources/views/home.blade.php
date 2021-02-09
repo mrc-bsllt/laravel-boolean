@@ -5,6 +5,9 @@
     <title>Home Cars</title>
   </head>
   <body>
-    <h1>Ciao come stai?</h1>
+    @php
+      dd($cars);
+    @endphp
+    <h1>Parco macchine</h1>
   </body>
 </html>
