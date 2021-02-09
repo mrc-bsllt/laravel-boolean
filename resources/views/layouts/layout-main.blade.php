@@ -7,7 +7,7 @@
   </head>
   <body>
 
-    @include("template/header");
+    @include("template/header")
 
     @yield('content')
 
