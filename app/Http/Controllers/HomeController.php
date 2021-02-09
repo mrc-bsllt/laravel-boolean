@@ -7,7 +7,11 @@ use App\Car;
 
 class HomeController extends Controller
 {
-    public function index() {
-      return view('home');
-    }
+
+  public function index() {
+    $cars = Car::all();
+
+    return view('home', compact("cars"));
+  }
+
 }
